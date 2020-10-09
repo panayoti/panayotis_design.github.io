@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="MobileOptimized" content="320"/> 
+    
+    <title>Panayotis Design | Visual Designer</title>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Typed.js -->
+    <script src="../js/typed.js" type="text/javascript"></script>
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.css" rel="stylesheet">
+
+    <!-- bootstrap validator -->
+    <link href='../css/bootstrapValidator.min.css' rel='stylesheet'>
+    
+    <!-- lightgallery -->
+    <link href="../css/lightgallery/lightgallery.css" rel="stylesheet">
+    <link href="../css/lightgallery/lg-transitions.min.css" rel="stylesheet">
+
+    <!-- Please support http://humanstxt.org/ -->
+    <link type="text/plain" rel="author" href="http://www.gerbers.ch/humans.txt"/>
+
+    <!-- Font Icons -->
+    <link href="../css/font-awesome.css" rel="stylesheet">
+
+    <!-- Main Style -->
+    <link href="../css/main.css" rel="stylesheet">
+
+    <!-- Responsive -->
+    <link href="../css/responsive.css" rel="stylesheet">
+
+    <!-- Animate.css -->
+    <!--<link href="css/animate.css" rel="stylesheet">-->
+
+    <!-- Google Font -->
+    <!--<link href='https://fonts.googleapis.com/css?family=Quicksand:400,300,700' rel='stylesheet' type='text/css'>-->
+
+    <!-- Analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-72788711-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+
+    <!-- Fav Icon -->
+    <link rel="shortcut icon" href="../img/ico/favicon.gif">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../img/ico/favicon-144.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../img/ico/favicon.114.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../img/ico/favicon-72.png">
+    <link rel="apple-touch-icon-precomposed" href="../img/ico/favicon-152.png">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <!-- Preloader -->
+    <div id="preloader">
+      <div id="load">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 absolute-center is-responsive text">
+              <h1>Panayotis Design</h1>
+              <span id="typed" style="white-space:pre;"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <header>
+      <nav class="navbar navbar-main navbar-fixed-top">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar top-bar"></span>
+                <span class="icon-bar middle-bar"></span>
+                <span class="icon-bar bottom-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Panayotis Design</a>
+          </div>
+
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="current"><a href="#carousel">Home</a></li>
+              <li><a href="#sobre">About me</a></li>
+              <li><a href="#portafolio">Portfolio</a></li>
+              <li><a href="#contacto">Contacts</a></li>
+              <li class="external"><a href="../es">Español</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+    </header>
+    <!-- /header -->
+
+    <div class="container-fluid">
+      <div id="carousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <!--<li data-target="#carousel" data-slide-to="0" class="active"></li>-->
+          <!--<li data-target="#carousel" data-slide-to="1"></li>-->
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <!--<div class="item active">
+            <video id="video1" loop autoplay preload="auto" poster="logo.jpg">
+              <source src="img/slider/logo.mp4" type="video/mp4" />
+              <source src="" type="video/webm" />
+              <source src="" type="video/ogg" />
+            </video>
+            <div class="carousel-caption">
+              <!--<p>TEXTO 0</p>
+            </div>
+          </div>-->
+            <div class="item sky active">
+              <img src="../img/slider/logo_animado.png" alt="Animated Logo">
+            <div class="carousel-caption">
+              <!--<p>TEXTO 1</p>-->
+            </div>
+          </div>
+          <!-- Controls -->
+         <!--<a class="left carousel-control hidden-xs" href="#carousel" role="button" data-slide="prev">
+            <span class="fa fa-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control hidden-xs" href="#carousel" role="button" data-slide="next">
+            <span class="fa fa-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>--
+        </div>
+    </div>
+
+    <!-- HOME -->
+    <section id="home" class="page">
+      <div class="padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12">
+              <div class="info-block">
+                <h1 class="">Panayotis Alexopoulos Rivero</h1>
+                <h3 class="">Visual Designer "Freelance”</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section id="sobre" class="page2">
+      <div class="padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6">
+              <div class="image-wrap">
+                <div class="hover-wrap">
+                  <span class="overlay-img"></span>
+                  <span class="overlay-text-thumb">"Visual Designer"</span>
+                </div>
+                <img src="../img/profile/profile.jpg" alt="Panayotis Design">
+              </div>
+              <!--<h3 class="profile-name">Panayotis Design.</h3>
+              <p class="profile-description">I am a Venezuelan "Visual Communicator" born in Valencia with studies carried out in the "Digital Design Center Valencia" I started my studies when I was 19 years old first in the "Valencia Design Institute" I had to retire from the first semester since its form of study was not my thing, after weeks I found this design center in which I fell in love with their study form that was more fun and dynamic and here they have me after a hard work.</p>1-->
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-6">
+              <div class="image-wrap">
+                <div class="hover-wrap">
+                  <span class="overlay-img"></span>
+                  <span class="overlay-text-thumb">"Panayotis Design"</span>
+                </div>
+                <img src="../img/profile/avatar.png" alt="Panayotis Design">
+              </div>
+              <!--<h3 class="profile-name">My digital Curriculum.</h3>
+              <blockquote>
+                <p class="profile-description">Here I leave my resume if you need more information about me, my skills, the programs I manage, skills among others, (YOU MUST HAVE A PDF READER INSTALLED).</p>
+                <br>
+                <small>
+                  <a class="button profile-description" target="_blank" href="../img/work/pdf/Curriculum_web.pdf">See Curriculum.</a>
+                </small>
+              </blockquote>-->
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12">
+              <h3 class="profile-name">Panayotis Design.</h3>
+              <p class="profile-description">I am a Venezuelan "Visual Communicator" born in Valencia with studies carried out in the "Digital Design Center Valencia" I started my studies when I was 19 years old first in the "Valencia Design Institute" I had to retire from the first semester since its form of study was not my thing, after weeks I found this design center in which I fell in love with their study form that was more fun and dynamic and here they have me after a hard work.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="line"></div>
+
+    <!-- TRABAJOS -->
+    <section id="portafolio" class="page2">
+      <div class="padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12">
+              <div class="title-page">
+                <h2 class="title">My jobs</h2>
+                <h3 class="title-description">Take a look at my projects.</h3>
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-12">
+              <ul class="breadcrumb portafolio-filter">
+                  <li><a href="#" data-filter="*" class="active">All projects</a></li>
+                  <li><a href="#" data-filter=".diseño">Designs</a></li>
+                  <li><a href="#" data-filter=".foto">Photography</a></li>
+                  <li><a href="#" data-filter=".video">Videos</a></li>
+                  <li><a href="#" data-filter=".web">Web</a></li>
+                  <li><a href="#" data-filter=".flash">Flash animation</a></li>
+                  <li><a href="#" data-filter=".logo">Logos</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12">
+              <ul id="lightgallery" class="portafolio-items">
+              
+                <!--portfolio-item-->
+                <li class="item-thumbs col-xs-12 col-sm-12 col-md-3 diseño video" data-responsive="" data-src="../img/work/full/img_37.jpg"
+                    data-sub-html="<h4>Slideshow of the end of the school year</h4>
+                    <p>Greek Community of Carabobo State: Creation of a slideshow of photographs for the end of the 2014-2016 school year, at the request of the Teacher.</p>">
+                  <a class="hover-wrap" href="">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-img-thumb fa fa-search-plus"></span>
+                  </a>
+                  <img class="img-responsive" src="../img/work/thumbs/img_37.jpg">             
+                </li>
+                <!-- portafolio-info -->
+                <li class="col-xs-12 col-sm-12 col-md-9 padding_zero diseño video">
+                  <h3 class="spec">Slideshow of the end of the school year</h3>
+                  <blockquote>
+                    <p>Greek Community of Carabobo State: Creation of a slideshow of photographs for the end of the 2014-2016 school year, at the request of the Teacher.</p>
+                    <br>
+                    <small>
+                      <a class="button" target="_blank" href="../img/work/pdf/img_37.pdf">See poster.</a>
+                      <a class="button" target="_blank" href="https://www.youtube.com/watch?v=yxof54v4ksk">See video.</a>
+                    </small>
+                  </blockquote>        
+                </li>
+                <!--/portfolio-item-->
+               
+                <!--portfolio-item-->
+                <li class="item-thumbs col-xs-12 col-sm-12 col-md-3 diseño video" data-responsive="" data-src="../img/work/full/img_36.png"
+                    data-sub-html="<h4>Real Cream Ice Cream - Packaging</h4>
+                    <p>Design of a new package for the ice cream named Crema Real of the brand Tio Rico of Venezuela.</p>">
+                  <a class="hover-wrap" href="">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-img-thumb fa fa-search-plus"></span>
+                  </a>
+                  <img class="img-responsive" src="../img/work/thumbs/img_36.png">             
+                </li>
+                <!-- portafolio-info -->
+                <li class="col-xs-12 col-sm-12 col-md-9 padding_zero diseño video">
+                  <h3 class="spec">Real Cream Ice Cream - Packaging</h3>
+                  <blockquote>
+                    <p>Design of a new package for the ice cream named Crema Real of the brand Tio Rico of Venezuela, (YOU MUST HAVE A PDF READER INSTALLED).</p>
+                    <br>
+                    <small>
+                      <a class="button" target="_blank" href="../img/work/pdf/crema_real_empaque.pdf">See project.</a>
+                      <a class="button" target="_blank" href="https://www.youtube.com/watch?v=fYlD3v5t5RQ">See video.</a>
+                    </small>
+                  </blockquote>        
+                </li>
+                <!--/portfolio-item-->
+
+                <!--portfolio-item-->
+                <li class="item-thumbs col-xs-12 col-sm-12 col-md-3 diseño" data-responsive="" data-src="../img/work/full/img_35.png"
+                    data-sub-html="<h4>Soups Maruchan - Special Zelda</h4>
+                    <p>Design of a new packaging for a special edition of Maruchan soups, inspired by the game The Legend of Zelda by Nintendo.</p>">
+                  <a class="hover-wrap" href="">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-img-thumb fa fa-search-plus"></span>
+                  </a>
+                  <img class="img-responsive" src="../img/work/thumbs/img_35.png">             
+                </li>
+                <!-- portafolio-info -->
+                <li class="col-xs-12 col-sm-12 col-md-9 padding_zero diseño">
+                  <h3 class="spec">Soups Maruchan - Special Zelda</h3>
+                  <blockquote>
+                    <p>Design of a new packaging for a special edition of Maruchan soups, inspired by the game The Legend of Zelda by Nintendo, (YOU MUST HAVE A PDF READER INSTALLED).</p>
+                    <br>
+                    <small>
+                      <a class="button" target="_blank" href="../img/work/pdf/img_35.pdf">See project.</a>
+                    </small>
+                  </blockquote>        
+                </li>
+                <!--/portfolio-item-->
+
+                <!--portfolio-item-->
+                <li class="item-thumbs col-xs-12 col-sm-12 col-md-3 web" data-responsive="" data-src="../img/work/full/img_34.jpg"
+                    data-sub-html="<h4>INPLAST C.A</h4>
+                    <p>Renewal in the design of the main website of the Venezuelan company for the manufacture of plastic products, INPLAST C.A.</p>">
+                  <a class="hover-wrap" href="">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-img-thumb fa fa-search-plus"></span>
+                  </a>
+                  <img class="img-responsive" src="../img/work/thumbs/img_34.png">             
+                </li>
+                <!-- portafolio-info -->
+                <li class="col-xs-12 col-sm-12 col-md-9 padding_zero web">
+                  <h3 class="spec">INPLAST C.A</h3>
+                  <blockquote>
+                    <p>Renewal in the design of the main website of the Venezuelan company for the manufacture of plastic products, INPLAST C.A.</p>
+                    <br>
+                    <small>
+                      <a class="button" target="_blank" href="http://inplast.com.ve/">See project.</a>
+                    </small>
+                  </blockquote>        
+                </li>
+                <!--/portfolio-item-->
+
+                <!--portfolio-item-->
+                <li class="item-thumbs col-xs-12 col-sm-12 col-md-3 web diseño video" data-responsive="" data-src="../img/work/full/img_33.jpg"
+                    data-sub-html="<h4>Natgeo - Personal project</h4>
+                    <p>The next project consists in the creation of a logo use manual, redesign of its website and a commercial created in 3D.</p>">
+                  <a class="hover-wrap" href="">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-img-thumb fa fa-search-plus"></span>
+                  </a>
+                  <img class="img-responsive" src="../img/work/thumbs/img_33.png">             
+                </li>
+                <!-- portafolio-info -->
+                <li class="col-xs-12 col-sm-12 col-md-9 padding_zero web diseño video">
+                  <h3 class="spec">Natgeo - Personal project</h3>
+                  <blockquote>
+                    <p>The next project consists in the creation of a logo use manual, redesign of its website and a commercial created in 3D.</p>
+                    <br>
+                    <small>
+                      <a class="button" target="_blank" href="natgeo.html">See project.</a>
+                    </small>
+                  </blockquote>        
+                </li>
+                <!--/portfolio-item-->
+
+                <!--portfolio-item-->
+                <li class="item-thumbs col-xs-12 col-sm-12 col-md-3 web diseño logo" data-responsive="" data-src="../img/work/full/img_32.jpg"
+                    data-sub-html="<h4>Syko Pretzel</h4>
+                    <p>Creation of a website and logo with its own corporate manual, for a pretzel food chain.</p>">
+                  <a class="hover-wrap" href="">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-img-thumb fa fa-search-plus"></span>
+                  </a>
+                  <img class="img-responsive" src="../img/work/thumbs/img_32.png">             
+                </li>
+                <!-- portafolio-info -->
+                <li class="col-xs-12 col-sm-12 col-md-9 padding_zero web diseño logo">
+                  <h3 class="spec">Syko Pretzel</h3>
+                  <blockquote>
+                    <p>Creation of a website and logo with its own corporate manual, for a pretzel food chain, (MUST HAVE INSTALLED FLASH PLAYER).</p>
+                    <br>
+                    <small>
+                      <a class="button" target="_blank" href="../img/work/web/syko_pretzel/index.html">See Web project.</a>
+                      <a class="button" target="_blank" href="../img/work/swf/flash6.swf">See corporate manual.</a>
+                    </small>
+                  </blockquote>        
+                </li>
+                <!--/portfolio-item-->
+
+                <!--portfolio-item-->
+                <li class="item-thumbs col-xs-12 col-sm-12 col-md-3 web diseño" data-responsive="" data-src="../img/work/full/img_30.jpg"
+                    data-sub-html="<h4>Website - KHS</h4>
+                    <p>Redesign of the international bicycle website KHS.</p>">
+                  <a class="hover-wrap" href="">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-img-thumb fa fa-search-plus"></span>
+                  </a>
+                  <img class="img-responsive" src="../img/work/thumbs/img_30.png">             
+                </li>
+                <!-- portafolio-info -->
+                <li class="col-xs-12 col-sm-12 col-md-9 padding_zero web diseño">
+                  <h3 class="spec">Website - KHS</h3>
+                  <blockquote>
+                    <p>Redesign of the international bicycle website KHS.<br>Create in HTML and CSS.</p>
+                    <br>
+                    <small>
+                      <a class="button" target="_blank" href="../img/work/web/khs/index.html">See project Web.</a>
+                    </small>
+                  </blockquote>        
+                </li>
+                <!--/portfolio-item-->
+
+                <!--portfolio-item-->
+                <li class="item-thumbs col-xs-12 col-sm-12 col-md-3 web diseño flash logo" data-responsive="" data-src="../img/work/full/img_27.jpg"
+                    data-sub-html="<h4>KIAKRA</h4>
+                    <p>Redesign of the logo the Venezuelan rock band named KIAKRA and the design of its website.</p>">
+                  <a class="hover-wrap" href="">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-img-thumb fa fa-search-plus"></span>
+                  </a>
+                  <img class="img-responsive" src="../img/work/thumbs/img_27.png">             
+                </li>
+                <!-- portafolio-info -->
+                <li class="col-xs-12 col-sm-12 col-md-9 padding_zero web diseño flash logo">
+                  <h3 class="spec">KIAKRA</h3>
+                  <blockquote>
+                    <p>Redesign of the logo of the Venezuelan rock band named KIAKRA and the design of is website, (MUST HAVE INSTALLED FLASH PLAYER).</p>
+                    <br>
+                    <small>
+                      <a class="button" target="_blank" href="../img/work/web/kiakra/index.html">See project Web.</a>
+                    </small>
+                  </blockquote>        
+                </li>
+                <!--/portfolio-item-->
+
+                <!--portfolio-item-->
+                <li class="item-thumbs col-xs-12 col-sm-12 col-md-3 web diseño flash logo" data-responsive="" data-src="../img/work/full/img_21.jpg"
+                    data-sub-html="<h4>CAOBA Coffe Shop</h4>
+                    <p>Creation of a flash website based on a fictional local coffee called CAOBA Coffe Shop.</p>">
+                  <a class="hover-wrap" href="">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-img-thumb fa fa-search-plus"></span>
+                  </a>
+                  <img class="img-responsive" src="../img/work/thumbs/img_21.png">             
+                </li>
+                <!-- portafolio-info -->
+                <li class="col-xs-12 col-sm-12 col-md-9 padding_zero web diseño flash logo">
+                  <h3 class="spec">CAOBA Coffe Shop</h3>
+                  <blockquote>
+                    <p>Creation of a flash website based on a fictional local coffee called CAOBA Coffe Shop, (MUST HAVE INSTALLED FLASH PLAYER).</p>
+                    <br>
+                    <small>
+                      <a class="button" target="_blank" href="../img/work/web/coffe_shop/index.html">See project Web.</a>
+                    </small>
+                  </blockquote>        
+                </li>
+                <!--/portfolio-item-->
+
+                <!--portfolio-item-->
+                <li class="item-thumbs col-xs-12 col-sm-12 col-md-3 diseño flash" data-responsive="" data-src="../img/work/full/img_16.png"
+                    data-sub-html="<h4>Invitation to the 2014 World Cup of Brazil</h4>
+                    <p>Interactive animation created in Flash in Pixel Art style, on an invitation to the 2014 Soccer World Cup held in Brazil.</p>">
+                  <a class="hover-wrap" href="">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-img-thumb fa fa-search-plus"></span>
+                  </a>
+                  <img class="img-responsive" src="../img/work/thumbs/img_16.png">             
+                </li>
+                <!-- portafolio-info -->
+                <li class="col-xs-12 col-sm-12 col-md-9 padding_zero diseño flash">
+                  <h3 class="spec">Invitation to the 2014 World Cup of Brazil</h3>
+                  <blockquote>
+                    <p>Interactive animation created in Flash in Pixel Art style, on an invitation to the 2014 Soccer World Cup held in Brazil, (MUST HAVE INSTALLED FLASH PLAYER).</p>
+                    <br>
+                    <small>
+                      <a class="button" target="_blank" href="../img/work/swf/flash1.swf">See project.</a>
+                    </small>
+                  </blockquote>        
+                </li>
+                <!--/portfolio-item-->
+
+                <!--portfolio-item-->
+                <li class="item-thumbs col-xs-12 col-sm-12 col-md-3 diseño flash" data-responsive="" data-src="../img/work/full/full.png"
+                    data-sub-html="<h4>Weapons and Letters Animation</h4>
+                    <p>Non-interactive animation created in Flash, animation of 26 weapons each representing a letter of the spanish alphabet.</p>">
+                  <a class="hover-wrap" href="">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-img-thumb fa fa-search-plus"></span>
+                  </a>
+                  <img class="img-responsive" src="../img/work/thumbs/img_17.png">             
+                </li>
+                <!-- portafolio-info -->
+                <li class="col-xs-12 col-sm-12 col-md-9 padding_zero diseño flash">
+                  <h3 class="spec">Weapons and Letters Animation</h3>
+                  <blockquote>
+                    <p>Non-interative animation created in flash animation of 26 weapons of 26 weapons each representing a letter of the spanish alphabet, (MUST HAVE INSTALLED FLASH PLAYER).</p>
+                    <br>
+                    <small>
+                      <a class="button" target="_blank" href="../img/work/swf/flash2.swf">See project.</a>
+                    </small>
+                  </blockquote>        
+                </li>
+                <!--/portfolio-item-->
+
+                <!--portfolio-item-->
+                <li class="item-thumbs col-xs-12 col-sm-12 col-md-3 diseño flash" data-responsive="" data-src="../img/work/full/full.png"
+                    data-sub-html="<h4>Animation Telescope</h4>
+                    <p>Infographic about the telescope, animation created in flash.</p>">
+                  <a class="hover-wrap" href="">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-img-thumb fa fa-search-plus"></span>
+                  </a>
+                  <img class="img-responsive" src="../img/work/thumbs/img_19.jpg">             
+                </li>
+                <!-- portafolio-info -->
+                <li class="col-xs-12 col-sm-12 col-md-9 padding_zero diseño flash">
+                  <h3 class="spec">Animation Telescope</h3>
+                  <blockquote>
+                    <p>Infographic about the telescope, animation created in flash.<br>(MUST HAVE INSTALLED FLASH PLAYER).</p>
+                    <br>
+                    <small>
+                      <a class="button" target="_blank" href="../img/work/swf/flash3.swf">See project.</a>
+                    </small>
+                  </blockquote>        
+                </li>
+                <!--/portfolio-item-->
+
+                <!--portfolio-item-->
+                <li class="item-thumbs col-xs-12 col-sm-12 col-md-3 diseño flash" data-responsive="" data-src="../img/work/full/full.png"
+                    data-sub-html="<h4>Movie credits home</h4>
+                    <p>Initial credits created in flash based on the spanish film Los Cronocrimenes.</p>">
+                  <a class="hover-wrap" href="">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-img-thumb fa fa-search-plus"></span>
+                  </a>
+                  <img class="img-responsive" src="../img/work/thumbs/img_20a.png">             
+                </li>
+                <!-- portafolio-info -->
+                <li class="col-xs-12 col-sm-12 col-md-9 padding_zero diseño flash">
+                  <h3 class="spec">Movie credits home</h3>
+                  <blockquote>
+                    <p>Initial credits created in flash based on the spanish film Los Cronocrimenes, (MUST HAVE INSTALLED FLASH PLAYER).</p>
+                    <br>
+                    <small>
+                      <a class="button" target="_blank" href="../img/work/swf/flash4.swf">See project.</a>
+                    </small>
+                  </blockquote>        
+                </li>
+                <!--/portfolio-item-->
+
+                <!--portfolio-item-->
+                <li class="item-thumbs col-xs-12 col-sm-12 col-md-3 diseño flash" data-responsive="" data-src="../img/work/full/full.png" 
+                    data-sub-html="<h4>Final credits movie</h4>
+                    <p>Final credits created in flash based on the spanish film Los Cronocrimenes.</p>">
+                  <a class="hover-wrap" href="">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-img-thumb fa fa-search-plus"></span>
+                  </a>
+                  <img class="img-responsive" src="../img/work/thumbs/img_20b.png">             
+                </li>
+                <!-- portafolio-info -->
+                <li class="col-xs-12 col-sm-12 col-md-9 padding_zero diseño flash">
+                  <h3 class="spec">Final credits movie</h3>
+                  <blockquote>
+                    <p>Final credits created in flash based on the spanish film Los Cronocrimenes, (MUST HAVE INSTALLED FLASH PLAYER).</p>
+                    <br>
+                    <small>
+                      <a class="button" target="_blank" href="../img/work/swf/flash5.swf">See project.</a>
+                    </small>
+                  </blockquote>        
+                </li>
+                <!--/portfolio-item-->
+
+                <!--portfolio-item-->
+                <li class="item-thumbs col-xs-12 col-sm-12 col-md-3 video" data-responsive="" data-src="../img/work/full/img_arcade.jpg"
+                    data-sub-html="<h4>Animation - ARCADE</h4>
+                    <p>Video that simulates a Shooters-type video game created entirely with the animation tools offered by the Adobe Photoshop program.</p>">
+                  <a class="hover-wrap" href="">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-img-thumb fa fa-search-plus"></span>
+                  </a>
+                  <img class="img-responsive" src="../img/work/thumbs/img_arcade.jpg">             
+                </li>
+                <!-- portafolio-info -->
+                <li class="col-xs-12 col-sm-12 col-md-9 padding_zero video">
+                  <h3 class="spec">Animation - ARCADE</h3>
+                  <blockquote>
+                    <p>Video that simulates a Shooters-type video game created entirely with the animation tools offered by the Adobe Photoshop program.</p>
+                    <br>
+                    <small>
+                      <a class="button" target="_blank" href="https://www.youtube.com/watch?v=Qc98dZ5B2ys">See project.</a>
+                    </small>
+                  </blockquote>        
+                </li>
+                <!--/portfolio-item-->
+
+                <!--portfolio-item-->
+                <li class="item-thumbs col-xs-12 col-sm-12 col-md-3 video" data-responsive="" data-src="../img/work/full/img_naciones.jpg"
+                    data-sub-html="<h4>United Nations Milennium Goal</h4>
+                    <p>Infographic on universal primary education, one of the 8 purposes of humans development set in the year 2000.</p>">
+                  <a class="hover-wrap" href="">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-img-thumb fa fa-search-plus"></span>
+                  </a>
+                  <img class="img-responsive" src="../img/work/thumbs/img_naciones.jpg">             
+                </li>
+                <!-- portafolio-info -->
+                <li class="col-xs-12 col-sm-12 col-md-9 padding_zero video">
+                  <h3 class="spec">United Nations Milennium Goal</h3>
+                  <blockquote>
+                    <p>Infographic on universal primary education, one of the 8 purposes of humans development set in the year 2000.</p>
+                    <br>
+                    <small>
+                      <a class="button" target="_blank" href="https://www.youtube.com/watch?v=EdF98CwSSBI">See project.</a>
+                    </small>
+                  </blockquote>        
+                </li>
+                <!--/portfolio-item-->
+
+                <!--portfolio-item-->
+                <li class="item-thumbs col-xs-12 col-sm-12 col-md-3 video" data-responsive="" data-src="../img/work/full/img_inquilino.jpg"
+                    data-sub-html="<h4>El inquilino</h4>
+                    <p>Independent production, adaptation of the original script The tenant written by Raul Simao, a film by Panayotis Alexopoulos Rivero</p>">
+                  <a class="hover-wrap" href="">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-img-thumb fa fa-search-plus"></span>
+                  </a>
+                  <img class="img-responsive" src="../img/work/thumbs/img_inquilino.jpg">             
+                </li>
+                <!-- portafolio-info -->
+                <li class="col-xs-12 col-sm-12 col-md-9 padding_zero video">
+                  <h3 class="spec">El inquilino</h3>
+                  <blockquote>
+                    <p>Independent production, adaptation of the original script The tenant written by Raul Simao, a film by Panayotis Alexopoulos Rivero.</p>
+                    <br>
+                    <small>
+                      <a class="button" target="_blank" href="https://www.youtube.com/watch?v=Pb8BULRchks">See project.</a>
+                    </small>
+                  </blockquote>        
+                </li>
+                <!--/portfolio-item-->
+
+                <!--portfolio-item-->
+                <li class="item-thumbs col-xs-12 col-sm-12 col-md-3 video" data-responsive="" data-src="../img/work/full/img_raspador.jpg"
+                    data-sub-html="<h4>El Raspador - Trailer CDD</h4>
+                    <p>Short film about the attempt to survive at all costs to be scratched at the institute.</p>">
+                  <a class="hover-wrap" href="">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-img-thumb fa fa-search-plus"></span>
+                  </a>
+                  <img class="img-responsive" src="../img/work/thumbs/img_raspador.jpg">             
+                </li>
+                <!-- portafolio-info -->
+                <li class="col-xs-12 col-sm-12 col-md-9 padding_zero video">
+                  <h3 class="spec">El Raspador - Trailer CDD</h3>
+                  <blockquote>
+                    <p>Short film about the attempt to survive at all costs to be scratched at the institute.</p>
+                    <br><br>
+                    <small>
+                      <a class="button" target="_blank" href="https://www.youtube.com/watch?v=Xy41WEnM380">See project.</a>
+                    </small>
+                  </blockquote>        
+                </li>
+                <!--/portfolio-item-->
+
+                <!--portfolio-item-->
+                <li class="item-thumbs col-xs-12 col-sm-12 col-md-3 diseño foto" data-responsive="" data-src="../img/work/full/img_18.jpg"
+                    data-sub-html="<h4>Photographic set - Industrial Disaster</h4>
+                    <p>Photographic set that bears the name of Industrial Disaster, which has a total of 7 photographs.</p>">
+                  <a class="hover-wrap" href="">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-img-thumb fa fa-search-plus"></span>
+                  </a>
+                  <img class="img-responsive" src="../img/work/thumbs/img_18.jpg">             
+                </li>
+                <!-- portafolio-info -->
+                <li class="col-xs-12 col-sm-12 col-md-9 padding_zero foto">
+                  <h3 class="spec">Photographic set - Industrial Disaster</h3>
+                  <blockquote>
+                    <p>Photographic set that bears the name of Industrial Disaster, which has a total of 7 photographs, (MUST HAVE A PDF READER INSTALLED).</p>
+                    <br>
+                    <small>
+                      <a class="button" target="_blank" href="../img/work/pdf/img_18.pdf">See project.</a>
+                    </small>
+                  </blockquote>        
+                </li>
+                <!--/portfolio-item-->
+
+                <!--portfolio-item-->
+                <li class="item-thumbs col-xs-12 col-sm-12 col-md-3 diseño foto" data-responsive="" data-src="../img/work/full/img_11.jpg"
+                    data-sub-html="<h4>Postcards - Carolina Herrera</h4>
+                    <p>Postcard games created on the basis of Venezuelan fashion designer Carolina Herrera.</p>">
+                  <a class="hover-wrap" href="">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-img-thumb fa fa-search-plus"></span>
+                  </a>
+                  <img class="img-responsive" src="../img/work/thumbs/img_11.jpg">             
+                </li>
+                <!-- portafolio-info -->
+                <li class="col-xs-12 col-sm-12 col-md-9 padding_zero foto">
+                  <h3 class="spec">Postcards - Carolina Herrera</h3>
+                  <blockquote>
+                    <p>Postcard games created on the basis of Venezuelan fashion designer Carolina Herrera, (MUST HAVE A PDF READER INSTALLED).</p>
+                    <br>
+                    <small>
+                      <a class="button" target="_blank" href="../img/work/pdf/img_11.pdf">See project.</a>
+                    </small>
+                  </blockquote>        
+                </li>
+                <!--/portfolio-item-->
+
+                <!--portfolio-item-->
+                <li class="item-thumbs col-xs-12 col-sm-12 col-md-3 logo" data-responsive="" data-src="../img/work/full/img_14.png"
+                    data-sub-html="<h4>Venezolana de Matriz</h4>
+                    <p>Creation of a logo for a fictitious company that is dedicated to the manufacture of a variety of rubber erasers.">
+                  <a class="hover-wrap" href="">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-img-thumb fa fa-search-plus"></span>
+                  </a>
+                  <img class="img-responsive" src="../img/work/thumbs/img_14.png">             
+                </li>
+                <!--/portfolio-item-->
+
+                <!--portfolio-item-->
+                <li class="item-thumbs col-xs-12 col-sm-12 col-md-3 logo" data-responsive="" data-src="../img/work/full/img_15.png"
+                    data-sub-html="<h4>Retro-Arcade Foundation Venezuela</h4>
+                    <p>Creation of a logo for a foundation and a recreational space where young people can learn about the times of the 70, 80 and 90 in the era of machines known as Arcade.">
+                  <a class="hover-wrap" href="">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-img-thumb fa fa-search-plus"></span>
+                  </a>
+                  <img class="img-responsive" src="../img/work/thumbs/img_15.png">             
+                </li>
+                <!--/portfolio-item-->
+
+                <!--portfolio-item-->
+                <li class="item-thumbs col-xs-12 col-sm-12 col-md-3 logo" data-responsive="" data-src="../img/work/full/img_24.png"
+                    data-sub-html="<h4>Caps for Lives</h4>
+                    <p>Redesign of the Tapas Por Vidas logo, a Non-Profit Civil Association that aims to spread the word about the recycling of plastic lids in order to help children with cancer.">
+                  <a class="hover-wrap" href="">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-img-thumb fa fa-search-plus"></span>
+                  </a>
+                  <img class="img-responsive" src="../img/work/thumbs/img_24.png">             
+                </li>
+                <!--/portfolio-item-->
+
+                <!--portfolio-item-->
+                <li class="item-thumbs col-xs-12 col-sm-12 col-md-3 logo" data-responsive="" data-src="../img/work/full/img_10.jpg"
+                    data-sub-html="<h4>I CTRL + SAVES THE WORLD</h4>
+                    <p>Creation of the logo of a clothing brand called I CTRL + SAVES THE WORLD.">
+                  <a class="hover-wrap" href="">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-img-thumb fa fa-search-plus"></span>
+                  </a>
+                  <img class="img-responsive" src="../img/work/thumbs/img_10.png">             
+                </li>
+                <!--/portfolio-item-->
+
+                <!--portfolio-item-->
+                <li class="item-thumbs col-xs-12 col-sm-12 col-md-3 diseño logo" data-responsive="" data-src="../img/work/full/img_29.png"
+                    data-sub-html="<h4>Playing cards - Typographical</h4>
+                    <p>Creation of a card games based on the basic principles of design.">
+                  <a class="hover-wrap" href="">
+                    <span class="overlay-img"></span>
+                    <span class="overlay-img-thumb fa fa-search-plus"></span>
+                  </a>
+                  <img class="img-responsive" src="../img/work/thumbs/img_29.png">             
+                </li>
+                <!-- portafolio-info -->
+                <li class="col-xs-12 col-sm-12 col-md-9 padding_zero diseño logo">
+                  <h3 class="spec">Playing cards - Typographical</h3>
+                  <blockquote>
+                    <p>Creation of a card games based on the basic principles of design, (MUST HAVE A PDF READER INSTALLED).</p>
+                    <br>
+                    <small>
+                      <a class="button" target="_blank" href="../img/work/pdf/img_29.pdf">Ver proyecto.</a>
+                    </small>
+                  </blockquote>        
+                </li>
+                <!--/portfolio-item-->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="line"></div>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="page">
+      <div class="padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12">
+              <div class="title-page">
+                <h2 class="title">Get in touch</h2>
+                <h3 class="title-description">I am currently accepting new projects from clients.<br>I hope I can serve you.</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <form class="form-horizontal" action="../php/contacto.php" method="post"  id="contact_form">
+              <fieldset>
+                <!-- Text input-->
+                <div class="form-group">
+                  <!--<label class="col-md-4 control-label">First Name</label>-->
+                  <div class="col-xs-12 col-sm-12 col-md-12">
+                    <input name="nombre" placeholder="First name and Last name" class="form-control"  type="text">
+                  </div>
+                </div>
+                <!-- Text input-->
+                <div class="form-group">
+                <!--<label class="col-md-4 control-label">E-Mail</label>-->
+                  <div class="col-xs-12 col-sm-12 col-md-12">
+                    <input name="email" placeholder="Mail Address" class="form-control"  type="text">
+                  </div>
+                </div>
+                <!-- Text area -->
+                <div class="form-group">
+                <!--<label class="col-md-4 control-label">Project Description</label>-->
+                  <div class="col-xs-12 col-sm-12 col-md-12">
+                    <textarea class="form-control" name="mensaje" rows="10" placeholder="Your message"></textarea>
+                  </div>
+                </div>
+                <!-- Success message -->
+                <div class="alert alert-success" role="alert" id="success_message">Success <i class="glyphicon glyphicon-thumbs-up"></i>Thank you for contacting us, we will get back to you shortly.</div>
+                <!-- Button -->
+                <div class="form-group">
+                  <!--<label class="col-md-4 control-label"></label>-->
+                  <div class="col-md-12">
+                    <button type="submit" class="button margin_top">Send Your email</button>
+                  </div>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+        </div><!-- /.container -->
+      </div>
+    </section>
+
+    <!-- REDES -->
+    <section id="redes" class="page">
+      <div class="padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12">
+              <nav id="social">
+                <ul>
+                  <li><a href="https://www.facebook.com/pages/Panayotis-Design/1628142410753872?ref=page_internal&sk=timeline" title="Follow me in Facebook" target="_blank"><span class="fa entypo-facebook"></span></a></li>
+                  <li><a href="https://twitter.com/panayoti125" title="Follow me in Twitter" target="_blank"><span class="fa entypo-twitter"></span></a></li>
+                  <li><a href="https://instagram.com/panayoti125" title="Follow me in Instagram" target="_blank"><span class="fa entypo-instagrem"></span></a></li>
+                  <li><a href="http://www.behance.net/panayoti125" title="Follow me in Behance" target="_blank"><span class="fa entypo-behance"></span></a></li>
+                  <li><a href="https://ve.linkedin.com/pub/panayotis-alexopoulos-rivero/b8/139/89a" title="Follow me in LinkedIn" target="_blank"><span class="fa entypo-linkedin"></span></a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p class="credits">&copy;2015 Panayotis Design.</a></p>
+    </footer>
+
+    <script src="../js/bootstrap.min.js" type="text/javascript"></script><!-- Bootstrap -->
+    <script src="../js/main.js" type="text/javascript"></script><!-- main -->
+    <script src="../js/jquery.isotope.min.js" type="text/javascript"></script><!-- isotope plugins -->
+    <script src="../js/jquery.nav.js" type="text/javascript"></script><!-- onePageNav -->
+    <!--<script src="../js/wow.min.js" type="text/javascript"></script> WOW -->
+    <script src="../js/lightgallery.min.js" type="text/javascript"></script><!-- lightgallery -->
+    <script src="../js/gallery_plugins/lg-fullscreen.min.js" type="text/javascript"></script><!-- lightgallery plugins -->
+    <script src="../js/gallery_plugins/lg-zoom.min.js" type="text/javascript"></script><!-- lightgallery plugins -->
+    <script src="../js/gallery_plugins/lg-video.min.js" type="text/javascript"></script><!-- lightgallery plugins -->
+    <script src="../js/bootstrapvalidator.min.js" type="text/javascript"></script><!-- bootstrap validator -->
+    <script src="../js/validador_en.js" type="text/javascript"></script><!-- Bootstrap Validator -->
+    
+    <!-- A jQuery plugin that adds cross-browser mouse wheel support. (Optional) -->
+    <script src="../js/jquery.mousewheel.min.js" type="text/javascript"></script>
+
+    <!-- Preloader -->
+    <script type="text/javascript">
+      //<![CDATA[
+        $(window).load(function() { // makes sure the whole site is loaded
+          $('#load').fadeOut(); // will first fade out the loading animation
+          $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+          $('body').delay(350).css({'overflow':'visible'});
+        })
+      //]]>
+    </script>
+  </body>
+</html>
