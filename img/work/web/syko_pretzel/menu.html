@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang='es'>
+<head>
+   <meta charset='utf-8'>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="css/estilo.css">
+   <link rel="stylesheet" href="css/estilo-header.css">
+   <link rel="stylesheet" href="css/reset.css">
+   <script src="js/jquery-latest.min.js" type="text/javascript"></script>
+   <script src="js/script-header.js"></script>
+   <!-- first: the CSS layout of LeanBack Player -->
+   <link rel="stylesheet" type="text/css" href="./css/css.player/leanbackPlayer.default.css"/>
+   <title>Sýko Pretzel</title>
+</head>
+
+<body>
+   <div id="header"><img src="img/logo.png" id="imagen-logo"></div>
+
+   <div id='cssmenu'>
+      <ul>
+         <li class='active'><a href='index.html'><span>Inicio</span></a></li>
+         <li class='active'><a href='quien.html'><span>Quienes somos</span></a></li>
+         <li class='active'><a href='menu.html'><span>Menú</span></a></li>
+         <li class='last'><a href='contacto.html'><span>Contacto</span></a></li>
+      </ul>
+   </div>
+
+   <div class="center">
+      <img src="img/menu_header.jpg" class="imagenes">
+   </div>
+
+   <div class="margen">
+      <p class="titulo">Nuestros Productos horneados</p><br><br>
+
+      <p class="texto">Nuestra receta de origen Venezolano, tomó muchos años de desarrollo para llegar a un nivel de perfección. Utilizando sólo los mejores ingredientes de calidad, preparamos la masa momentos antes que se elaboran a mano y se sirve fresco y recién horneado. La masa en forma de Pretzels se hornea al punto dorado para lograr una textura suave y óptima. Calientes y deliciosos, nuestros Pretzels se combinan con una variedad de ingredientes dulces o salados.</p><br>
+
+      <p class="texto">Nuestros sabores dulces son el azúcar y canela, chocolate y cajeta. Nuestros sabores salados incluyen sal original, ajonjolí, queso parmesano, queso Cheddar, y los Pretzels Dogs, mientras de los dulces incluyen canela y azúcar, chocolate negro y blanco, arequipe, miel y nuestro especialidad de higo.</p>
+   </div>
+
+   <div class="center">
+      <div class="composicion">
+         <img src="img/menu/recorte/syko-pretzel-01.png" class="imagen-p">
+         <img src="img/menu/recorte/syko-pretzel-02.png" class="imagen-p">
+         <img src="img/menu/recorte/syko-pretzel-03.png" class="imagen-p">
+         <img src="img/menu/recorte/syko-pretzel-04.png" class="imagen-p">
+         <img src="img/menu/recorte/syko-pretzel-05.png" class="imagen-p">
+         <img src="img/menu/recorte/syko-pretzel-06.png" class="imagen-p">
+         <a href="contacto.html" class="boton negro redondo">Ven a visitarnos.</a>
+      </div>
+   </div>
+
+   <div id="footer">
+      <p class="footer-texto">Sýko Pretzel 2015 - Derechos reservados.</p>
+      
+      <div id="player">
+         <!-- surrounding element with class - needed!! -->
+         <div class="leanback-player-audio player">
+            <!-- HTML5 <audio> element -->
+            <audio preload="metadata" controls autoplay loop>
+               <!-- HTML5 <audio> sources -->
+               <source src="mp3/01-cant-catch-a-break.mp3" type='audio/mpeg; codecs=""'/>
+            </audio>
+         </div>
+      </div>
+      <br>
+      <p class="footer-texto">Información de la musica.</p><br>
+      <p class="footer-texto">Final Fantasy XIII Original Soundtrack (OST) Disc 3 - Can’t Catch a Break</p>
+      <p class="footer-texto">Copyright Square Enix Co.,Ltd.<p>
+   </div>
+
+   <!-- second: the Javascript file of LeanBack Player -->
+   <script type="text/javascript" src="./js/js.player/leanbackPlayer.pack.js"></script>
+   <!-- third: additional language files of LeanBack Player; -->
+   <!-- make sure you add at least the english translation ("en") -->
+   <script type="text/javascript" src="./js/js.player/leanbackPlayer.es.js"></script>
+   <script type="text/javascript" src="./js/js.player/leanbackPlayer.en.js"></script>
+</body>
+<html>

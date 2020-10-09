@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+fieldset {
+	width:780px;
+}
+
+legend {
+	font-size:20px;
+}
+
+label.field {
+	text-align:right;
+	width:85px;
+	float:left;
+	font-family: 'Quicksand', sans-serif;
+	font-weight:bold;
+}
+
+input.textbox-300 {
+	width:580px;
+	float:left;
+}
+
+fieldset p {
+	clear:both;
+	padding:5px;
+}
+
+.boton_cont {
+ 	font-family: 'Quicksand', sans-serif;
+ 	font-size: 15px;
+ 	font-weight: bold;
+ 	color: #FFB428;
+ 	background-color: #FFF;
+ 	margin-left:83px;
+ 	margin-bottom:25px;
+}
