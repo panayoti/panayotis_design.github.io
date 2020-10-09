@@ -1,0 +1,383 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* ESTILO LINK */
+a:link {
+	color: #CFD8DC;
+	text-decoration: none;
+}
+a:visited {
+	color: #CFD8DC;
+	text-decoration: none;
+}
+a:hover {
+	color: #FFC107;
+	text-decoration: underline;
+}
+a:active {
+	color: #FFC107;
+	text-decoration: none;
+}
+
+/* FUENTES */
+@font-face {
+	font-family: "Helvetica Neue";
+	font-style: bold;
+	font-weight: bold;
+	src: local("?"), url("../fuente/helvetica_neue_bold.woff") format("woff"), url("../fuente/helvetica_neue_bold.tff") format("truetype");
+}
+
+@font-face {
+	font-family: "Helvetica Neue black Oblique";
+	font-style:black oblique;
+	font-weight:black oblique;
+	src: local("?"), url("../fuente/helvetica_neue_black_condensed_oblique.woff") format("woff"), url("../fuente/helvetica_neue_black_condensed_oblique.tff") format("truetype");
+}
+
+/* CONTENIDO 1 */
+
+#header {
+	width:100%;
+	height:50px;
+	background-image:url(../img/header.png);
+	position:relative;
+}
+
+#header_content {
+	width:960px;
+	height:0px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#logo {
+	width:125px;
+	height:20px;
+	margin-top:10px;
+	margin-left:10px;
+	float:left;
+	position:absolute;
+}
+
+.botonera_btn {
+	width:540px;
+	height:20px;
+	margin-left:135px;
+	margin-top:17px;
+	float:left;	
+}
+
+.botonera_btn ul {
+	display:inline-block;
+}
+
+.botonera_btn li {
+	width:540px;
+	height:20px;
+	margin-left:20px;
+	display:inline;
+	list-style:none;
+	font-family:Helvetica Neue; color:#CFD8DC; font-size:16px;
+}
+
+#khs_online {
+	width:245px;
+	height:12px;
+	margin-top:17px;
+	margin-left:680px;
+	float:right;
+	position:absolute;
+}
+
+#fondo {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 960px;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position:relative;
+  
+  top: 20px;
+  left: 0;
+  margin-top:-35px;
+}
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+}
+
+/* CONTENIDO 2 */
+
+.categoria_1 {
+	width:100%;
+	height:37px;
+	background-image:url(../img/categoria_p.png);
+	display:inline-block;
+	position:relative;
+
+}
+
+.center {
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	text-align:center;
+}
+
+.azul {
+	width:auto;
+	height:auto;
+	background-image:url(../img/azul.png);
+	display:block;
+	position:relative;
+}
+
+.contenido {
+	margin-top:25px;
+	margin-left:25px;
+	margin-right:25px;
+	display:inline-block;
+}
+
+.textos {
+	width:100%;
+	height:25px;
+	margin-top:13px;
+	position:absolute;
+	z-index:3;
+	font-family:Helvetica Neue Black Oblique; font-size:18px;
+}
+
+.color_amarillo {
+	color: #FFC107;
+}
+
+.color_azul {
+	color: #1A237E;
+}
+
+.color_gris {
+	color: #CFD8DC;
+}
+
+/* CONTENIDO 3 */
+.categoria_2 {
+	width:100%;
+	height:37px;
+	margin-top:-8px;
+	position:relative;
+	background-image:url(../img/categoria_2.png);
+
+}
+
+.titulo_azul {
+	width:100%;
+	height:22px;
+	margin-top:-5px;
+	position:relative;
+	background-image:url(../img/titulos_azul.png);
+}
+
+.titulos {
+	width:130px;
+	height:auto;
+	margin-top:25px;
+	position:relative;
+	margin-left:10%;
+	margin-right:auto;
+}
+
+.textos_t {
+	width:100%;
+	height:auto;
+	margin-top:0px;
+	position:absolute;
+	z-index:3;
+	font-family:Helvetica Neue Black Oblique; font-size:14px;
+}
+
+.center_2 {
+	margin-left:10%;
+	margin-right:auto;
+	display:block;
+	float:left;
+	position:relative;
+	margin-bottom:25px;
+}
+
+.contenido_f {
+	margin-top:25px;
+	margin-left:25px;
+	display:inline-block;
+}
+
+.contenido_v {
+	margin-top:25px;
+	margin-left:25px;
+	display:inline;
+	position:relative;
+}
+
+.textos_v {
+	width:100%;
+	height:auto;
+	margin-top:25px;
+	margin-bottom:25px;
+	position:relative;
+	font-family:Helvetica Neue Black Oblique; font-size:25px;
+}
+
+.textos_otro {
+	width:100%;
+	height:auto;
+	margin-left:25px;
+	margin-top:25px;
+	display:block;
+	position:relative;
+	font-family:Helvetica Neue Black Oblique; font-size:14px;
+}
+
+/* CONTENIDO 4 */
+
+.textos_team {
+	width:100%;
+	height:auto;
+	position:relative;
+	font-family:Helvetica Neue Black Oblique; font-size:25px;
+}
+
+.textos_team2 {
+	width:100%;
+	height:auto;
+	margin-top:15px;
+	margin-bottom:25px;
+	position:relative;
+	font-family:Helvetica Neue Black Oblique; font-size:14px;
+}
+
+.textos_team3 {
+	width:27%;
+	height:auto;
+	margin-top:25px;
+	margin-bottom:25px;
+	text-align:justify;
+	position:relative;
+	font-family:Helvetica Neue Black Oblique; font-size:14px;
+}
+
+.textos_team4 {
+	width:27%;
+	height:auto;
+	margin-top:5px;
+	margin-bottom:15px;
+	text-align:justify;
+	position:relative;
+	font-family:Helvetica Neue Black Oblique; font-size:14px;
+}
+
+.azul_2 {
+	width:100%;
+	height:auto;
+	background-image:url(../img/azul.png);
+	display:block;
+	position:relative;
+}
+
+.center_3 {
+	margin-left:25%;
+	margin-right:auto;
+	display:block;
+}
+
+/* CONTENIDO 5 */
+
+.center_4 {
+	margin-left:10%;
+	margin-right:auto;
+	display:block;
+	float:left;
+	position:relative;
+}
+
+.textos_about {
+	width:100%;
+	height:auto;
+	margin-top:25px;
+	margin-bottom:25px;
+	position:relative;
+	font-family:Helvetica Neue Black Oblique; font-size:25px;
+}
+
+.textos_about2 {
+	width:75%;
+	height:auto;
+	margin-left:25px;
+	margin-bottom:-25px;
+	position:relative;
+	text-align:justify;
+	font-family:Helvetica Neue Black Oblique; font-size:14px;
+}
+
+/* FOOTER */
+
+#footer {
+	width:100%;
+	height:37px;
+	margin-top:-10px;
+	background-image:url(../img/categoria_p.png);
+	display:inline-block;
+	position:relative;
+}
+
+#footer_content {
+	width:960px;
+	height:0px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.botonera_btn_f {
+	width:540px;
+	height:20px;
+	margin-left:90px;
+	margin-top:17px;
+	float:left;	
+}
+
+.botonera_btn_f ul {
+	display:inline-block;
+}
+
+.botonera_btn_f li {
+	width:540px;
+	height:20px;
+	margin-left:20px;
+	display:inline;
+	list-style:none;
+	font-family:Helvetica Neue; color:#CFD8DC; font-size:16px;
+}
+
+#khs_online_footer {
+	width:245px;
+	height:12px;
+	margin-top:17px;
+	margin-left:635px;
+	float:right;
+	position:absolute;
+}
+
+.textos_footer {
+	width:50%;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:25px;
+	text-align:center;
+	position:relative;
+	font-family:Helvetica Neue Black Oblique; font-size:14px;
+}

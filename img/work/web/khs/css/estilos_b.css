@@ -1,0 +1,97 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* ESTILO LINK */
+a:link {
+	color: #1A237E;
+	text-decoration: none;
+}
+a:visited {
+	color: #1A237E;
+	text-decoration: none;
+}
+a:hover {
+	color: #CFD8DC;
+	text-decoration: underline;
+}
+a:active {
+	color: #CFD8DC;
+	text-decoration: none;
+}
+
+/* FUENTES */
+@font-face {
+	font-family: "Helvetica Neue";
+	font-style: bold;
+	font-weight: bold;
+	src: local("?"), url("../fuente/helvetica_neue_bold.woff") format("woff"), url("../fuente/helvetica_neue_bold.tff") format("truetype");
+}
+
+@font-face {
+	font-family: "Helvetica Neue black Oblique";
+	font-style:black oblique;
+	font-weight:black oblique;
+	src: local("?"), url("../fuente/helvetica_neue_black_condensed_oblique.woff") format("woff"), url("../fuente/helvetica_neue_black_condensed_oblique.tff") format("truetype");
+}
+
+/* CONTENIDO 1 */
+
+#header {
+	width:100%;
+	height:50px;
+	background-image:url(../img/header2.png);
+	position:relative;
+}
+
+#header_content {
+	width:960px;
+	height:0px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#logo {
+	width:125px;
+	height:20px;
+	margin-top:10px;
+	margin-left:10px;
+	float:left;
+	position:absolute;
+}
+
+.botonera_btn {
+	width:540px;
+	height:20px;
+	margin-left:135px;
+	margin-top:17px;
+	float:left;	
+}
+
+.botonera_btn ul {
+	display:inline-block;
+}
+
+.botonera_btn li {
+	width:540px;
+	height:20px;
+	margin-left:20px;
+	display:inline;
+	list-style:none;
+	font-family:Helvetica Neue; color:#CFD8DC; font-size:16px;
+}
+
+#khs_online {
+	width:245px;
+	height:12px;
+	margin-top:17px;
+	margin-left:680px;
+	float:right;
+	position:absolute;
+}
+
+.bicicleta_1 {
+	width:100%;
+	height:auto;
+	position:absolute;
+	background-image:url(../img/bicicletas_1.png);
+}
