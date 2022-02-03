@@ -1,1 +1,1 @@
-# panayotis_design.github.io
+# panayotis-design.github.io
